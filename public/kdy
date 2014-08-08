@@ -1,0 +1,4 @@
+rake sitemap:refresh
+
+public/robots.txt
+Sitemap: https://YOUR_BUCKET.s3.amazonaws.com/sitemaps/sitemap_index.xml.gz
