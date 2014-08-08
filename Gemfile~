@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'mysql2'
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -19,7 +20,13 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :production do
+ gem "rails_12factor"
+ gem 'pg'
+end
+
 gem 'jquery-rails'
 
 gem "less-rails"
 gem "twitter-bootstrap-rails"
+gem 'sitemap_generator', '~> 5.0.5'

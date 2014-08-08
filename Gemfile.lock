@@ -59,6 +59,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.7)
+    mysql2 (0.3.16)
     pg (0.17.1)
     polyglot (0.3.3)
     rack (1.4.5)
@@ -76,6 +77,11 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
+    rails_12factor (0.0.2)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.2)
+    rails_stdout_logging (0.0.3)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -124,8 +130,10 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   less-rails
+  mysql2
   pg
   rails (= 3.2.13)
+  rails_12factor
   sass-rails (~> 3.2.3)
   sitemap_generator (~> 5.0.5)
   therubyracer
